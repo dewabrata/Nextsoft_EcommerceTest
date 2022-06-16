@@ -122,12 +122,17 @@ public class BuyProductTest {
 				
 				// verify button quick view
 				assertEquals(popUp.getPopUpDetail(), "Faded Short Sleeve T-shirts");
+				assertEquals(popUp.getPopUpDetail_product_reference(), "Model demo_1");
+				assertEquals(popUp.getPopUpDetail_product_condition(), "Condition New");
+				assertEquals(popUp.getPopUpDetail_product_desc(), "Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!");
+				assertEquals(popUp.getPopUpDetail_product_prize(), "$16.51");
+//				assertEquals(popUp.getPopUpDetail_product_reference(), "Model demo_1");
 			}
 		}
 		// switch back to original window
 		driver.switchTo().window(parentWindow);
 	}
-
+/*
 	@Test(priority = 4)
 	public void testCheck_btnMore() {
 		HomePage home = PageFactory.initElements(driver, HomePage.class);
@@ -189,5 +194,5 @@ public class BuyProductTest {
 		}
 		driver.switchTo().window(parentWindow);
 	}
-	
+	*/
 }
