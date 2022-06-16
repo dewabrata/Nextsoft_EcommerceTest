@@ -1,5 +1,7 @@
 package com.nextsoft.testcom.product;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,6 +39,9 @@ public class BuyProductTest {
 		home.clickSignIn().loginValidUser("rajahutan@gmail.com", "12345").backToHome();
 		
 		jsExe.executeScript("window.scrollBy(0, 800)", "");
+		CartPage cart = PageFactory.initElements(driver, CartPage.class);
+		
 		
 	}
+	
 }

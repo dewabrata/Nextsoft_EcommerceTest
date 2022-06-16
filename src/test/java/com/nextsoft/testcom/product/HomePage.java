@@ -15,10 +15,11 @@ public class HomePage {
 
 	@FindBy(xpath = "//a[@title='Log in to your customer account']")
 	private WebElement signIn;
-	
+
 	public SignInPage clickSignIn() {
 		signIn.click();
 		SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
 		return signInPage;
 	}
+
 }
