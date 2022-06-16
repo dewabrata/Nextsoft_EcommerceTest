@@ -6,8 +6,8 @@
       <class name="com.nextsoft.testcom.product.BuyProductTest">
         <methods>
           <include name="init"/>
+          <include name="testCheck_btnQuickView"/>
           <include name="cekSession"/>
-          <include name="check_btnAddToCart"/>
         </methods>
       </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
     </classes>

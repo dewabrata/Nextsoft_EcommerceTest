@@ -34,6 +34,10 @@ public class HomePage {
 	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]")
 	private WebElement btnAddToCart;
 
+	@FindBy(xpath = "//span[normalize-space()='Raja Hutan']")
+	private WebElement username;
+	
+	
 	public SignInPage clickSignIn() {
 		signIn.click();
 		SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
@@ -77,5 +81,9 @@ public class HomePage {
 	public DetailPage gotoDetailPage() {
 		btnMore.click();
 		return PageFactory.initElements(driver, DetailPage.class);
+	}
+	
+	public String getCheckLogin() {
+		return username.getText();
 	}
 }

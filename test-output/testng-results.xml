@@ -1,115 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<img src='file://D:\hasilSS\20220617_024532.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\hasilSS\20220617_024536.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\hasilSS\20220617_024542.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\hasilSS\20220617_024548.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\hasilSS\20220617_024553.png'height="450" width="1017"/>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-16T23:06:40 ICT" name="Default suite" finished-at="2022-06-16T23:07:35 ICT" duration-ms="54905">
+  <suite started-at="2022-06-17T02:45:09 ICT" name="SuiteTest" finished-at="2022-06-17T02:45:53 ICT" duration-ms="43877">
     <groups>
     </groups>
-    <test started-at="2022-06-16T23:06:40 ICT" name="Default test" finished-at="2022-06-16T23:07:35 ICT" duration-ms="54905">
+    <test started-at="2022-06-17T02:45:09 ICT" name="Buy Product" finished-at="2022-06-17T02:45:53 ICT" duration-ms="43877">
       <class name="com.nextsoft.testcom.product.BuyProductTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:06:40 ICT" name="init" finished-at="2022-06-16T23:06:59 ICT" duration-ms="18785" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:09 ICT" name="init" finished-at="2022-06-17T02:45:19 ICT" duration-ms="9467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:06:59 ICT" name="cekSession" finished-at="2022-06-16T23:07:03 ICT" duration-ms="4080" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:19 ICT" name="cekSession" finished-at="2022-06-17T02:45:23 ICT" duration-ms="3688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="testLogin_usernameValid_passwordValid()[pri:1, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:03 ICT" name="testLogin_usernameValid_passwordValid" finished-at="2022-06-16T23:07:16 ICT" duration-ms="13057" status="PASS">
+        <test-method signature="test_Login_toHomepage()[pri:1, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:23 ICT" name="test_Login_toHomepage" finished-at="2022-06-17T02:45:33 ICT" duration-ms="10006" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\hasilSS\20220617_024532.png'height="450" width="1017"/>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testLogin_usernameValid_passwordValid -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:16 ICT" name="cekSession" finished-at="2022-06-16T23:07:26 ICT" duration-ms="9783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cekSession -->
-        <test-method signature="check_Image_Name_Prize_Product()[pri:2, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:26 ICT" name="check_Image_Name_Prize_Product" finished-at="2022-06-16T23:07:26 ICT" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_Image_Name_Prize_Product -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:26 ICT" name="cekSession" finished-at="2022-06-16T23:07:35 ICT" duration-ms="9071" status="PASS">
+        </test-method> <!-- test_Login_toHomepage -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:33 ICT" name="cekSession" finished-at="2022-06-17T02:45:36 ICT" duration-ms="3050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="check_btnAddToCart()[pri:3, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:35 ICT" name="check_btnAddToCart" finished-at="2022-06-16T23:07:35 ICT" duration-ms="24" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]"}
-  (Session info: chrome=102.0.5005.115)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-0MGR9KI', ip: '192.168.1.188', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa7124a5d4c1504f0a581db47d4f0b21, findElement {using=xpath, value=//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58270/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa7124a5d4c1504f0a581db47d4f0b21]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]"}
-  (Session info: chrome=102.0.5005.115)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-0MGR9KI', ip: '192.168.1.188', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa7124a5d4c1504f0a581db47d4f0b21, findElement {using=xpath, value=//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58270/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fa7124a5d4c1504f0a581db47d4f0b21
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at com.nextsoft.testcom.product.HomePage.gotoCartPage(HomePage.java:73)
-at com.nextsoft.testcom.product.BuyProductTest.check_btnAddToCart(BuyProductTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="test_getProduct_Image_Name_Prize()[pri:2, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:36 ICT" name="test_getProduct_Image_Name_Prize" finished-at="2022-06-17T02:45:36 ICT" duration-ms="753" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\hasilSS\20220617_024536.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_getProduct_Image_Name_Prize -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:36 ICT" name="cekSession" finished-at="2022-06-17T02:45:38 ICT" duration-ms="1946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_btnAddToCart -->
+        </test-method> <!-- cekSession -->
+        <test-method signature="testCheck_btnQuickView()[pri:3, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:38 ICT" name="testCheck_btnQuickView" finished-at="2022-06-17T02:45:42 ICT" duration-ms="4099" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\hasilSS\20220617_024542.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheck_btnQuickView -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:42 ICT" name="cekSession" finished-at="2022-06-17T02:45:44 ICT" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="testCheck_btnMore()[pri:4, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:44 ICT" name="testCheck_btnMore" finished-at="2022-06-17T02:45:49 ICT" duration-ms="4538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\hasilSS\20220617_024548.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheck_btnMore -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:49 ICT" name="cekSession" finished-at="2022-06-17T02:45:50 ICT" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="testCheck_btnAddToCart()[pri:5, instance:com.nextsoft.testcom.product.BuyProductTest@5e600dd5]" started-at="2022-06-17T02:45:50 ICT" name="testCheck_btnAddToCart" finished-at="2022-06-17T02:45:53 ICT" duration-ms="2931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\hasilSS\20220617_024553.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheck_btnAddToCart -->
       </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Buy Product -->
+  </suite> <!-- SuiteTest -->
 </testng-results>
