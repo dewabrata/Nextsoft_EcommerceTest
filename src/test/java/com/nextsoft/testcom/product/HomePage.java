@@ -15,6 +15,7 @@ public class HomePage {
 
 	@FindBy(xpath = "//a[@title='Log in to your customer account']")
 	private WebElement signIn;
+
 	
 	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//img[@title='Faded Short Sleeve T-shirts']")
 	private WebElement checkImageProduct;
@@ -36,6 +37,7 @@ public class HomePage {
 		SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
 		return signInPage;
 	}
+
 	
 	
 	public int getCheckImageProduct() {
