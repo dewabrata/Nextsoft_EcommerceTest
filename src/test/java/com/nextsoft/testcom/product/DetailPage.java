@@ -1,5 +1,14 @@
 package com.nextsoft.testcom.product;
 
-public class DetailPage {
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
+public class DetailPage {
+	WebDriver driver;
+	
+	
+	
+	
+	
 }

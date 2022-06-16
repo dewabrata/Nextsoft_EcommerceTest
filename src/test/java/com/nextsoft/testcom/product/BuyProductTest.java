@@ -1,5 +1,8 @@
 package com.nextsoft.testcom.product;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,7 +39,17 @@ public class BuyProductTest {
 		HomePage home = PageFactory.initElements(driver, HomePage.class);
 		home.clickSignIn().loginValidUser("rajahutan@gmail.com", "12345").backToHome();
 		
+//		jsExe.executeScript("window.scrollBy(0, 800)", "");
+		
+	}
+	
+	@Test(priority = 2)
+	public void check_Image_Name_Prize_Product() {
+		HomePage home = PageFactory.initElements(driver, HomePage.class);
 		jsExe.executeScript("window.scrollBy(0, 800)", "");
+		assertEquals(home.getCheckImageProduct(), 1, "Image Product ditemukan");
+		assertEquals(home.getCheckNameProduct(), 1, "Name Product ditemukan");
+		assertEquals(home.getCheckPrizeProduct(), 1, "Prize Product ditemukan");
 		
 	}
 }
