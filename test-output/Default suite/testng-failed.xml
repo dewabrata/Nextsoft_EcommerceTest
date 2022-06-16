@@ -6,8 +6,8 @@
       <class name="com.nextsoft.testcom.product.BuyProductTest">
         <methods>
           <include name="init"/>
-          <include name="testLogin_usernameValid_passwordValid"/>
           <include name="cekSession"/>
+          <include name="check_Image_Name_Prize_Product"/>
         </methods>
       </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
     </classes>
