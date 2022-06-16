@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 public class DetailPage {
 	WebDriver driver;
 	
+//	Btn More
+	
 	
 	
 	
