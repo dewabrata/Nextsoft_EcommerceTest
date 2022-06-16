@@ -48,9 +48,6 @@ public class BuyProductTest {
 		HomePage home = PageFactory.initElements(driver, HomePage.class);
 		jsExe.executeScript("window.scrollBy(0, 800)", "");
 
-	
-		
-
 		assertEquals(home.getCheckImageProduct(), 1, "Image Product ditemukan");
 		assertEquals(home.getCheckNameProduct(), 1, "Name Product ditemukan");
 		assertEquals(home.getCheckPrizeProduct(), 1, "Prize Product ditemukan");
