@@ -1,51 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2022-06-16T22:28:08 ICT" name="Default suite" finished-at="2022-06-16T22:28:31 ICT" duration-ms="22864">
+  <suite started-at="2022-06-16T23:06:40 ICT" name="Default suite" finished-at="2022-06-16T23:07:35 ICT" duration-ms="54905">
     <groups>
     </groups>
-    <test started-at="2022-06-16T22:28:08 ICT" name="Default test" finished-at="2022-06-16T22:28:31 ICT" duration-ms="22864">
+    <test started-at="2022-06-16T23:06:40 ICT" name="Default test" finished-at="2022-06-16T23:07:35 ICT" duration-ms="54905">
       <class name="com.nextsoft.testcom.product.BuyProductTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@4a883b15]" started-at="2022-06-16T22:28:08 ICT" name="init" finished-at="2022-06-16T22:28:20 ICT" duration-ms="11552" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:06:40 ICT" name="init" finished-at="2022-06-16T23:06:59 ICT" duration-ms="18785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@4a883b15]" started-at="2022-06-16T22:28:20 ICT" name="cekSession" finished-at="2022-06-16T22:28:22 ICT" duration-ms="2258" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:06:59 ICT" name="cekSession" finished-at="2022-06-16T23:07:03 ICT" duration-ms="4080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="testLogin_usernameValid_passwordValid()[pri:1, instance:com.nextsoft.testcom.product.BuyProductTest@4a883b15]" started-at="2022-06-16T22:28:22 ICT" name="testLogin_usernameValid_passwordValid" finished-at="2022-06-16T22:28:31 ICT" duration-ms="8977" status="PASS">
-=======
-  <suite started-at="2022-06-16T22:00:50 WIB" name="Default suite" finished-at="2022-06-16T22:01:05 WIB" duration-ms="15015">
-    <groups>
-    </groups>
-    <test started-at="2022-06-16T22:00:50 WIB" name="Default test" finished-at="2022-06-16T22:01:05 WIB" duration-ms="15015">
-      <class name="com.nextsoft.testcom.product.BuyProductTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d52216b]" started-at="2022-06-16T22:00:50 WIB" name="init" finished-at="2022-06-16T22:00:59 WIB" duration-ms="9395" status="PASS">
+        <test-method signature="testLogin_usernameValid_passwordValid()[pri:1, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:03 ICT" name="testLogin_usernameValid_passwordValid" finished-at="2022-06-16T23:07:16 ICT" duration-ms="13057" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d52216b]" started-at="2022-06-16T22:00:59 WIB" name="cekSession" finished-at="2022-06-16T22:01:05 WIB" duration-ms="5500" status="PASS">
+        </test-method> <!-- testLogin_usernameValid_passwordValid -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:16 ICT" name="cekSession" finished-at="2022-06-16T23:07:26 ICT" duration-ms="9783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="check_Image_Name_Prize_Product()[pri:2, instance:com.nextsoft.testcom.product.BuyProductTest@2d52216b]" started-at="2022-06-16T22:01:05 WIB" name="check_Image_Name_Prize_Product" finished-at="2022-06-16T22:01:05 WIB" duration-ms="70" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="check_Image_Name_Prize_Product()[pri:2, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:26 ICT" name="check_Image_Name_Prize_Product" finished-at="2022-06-16T23:07:26 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Image_Name_Prize_Product -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:26 ICT" name="cekSession" finished-at="2022-06-16T23:07:35 ICT" duration-ms="9071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="check_btnAddToCart()[pri:3, instance:com.nextsoft.testcom.product.BuyProductTest@2d710f1a]" started-at="2022-06-16T23:07:35 ICT" name="check_btnAddToCart" finished-at="2022-06-16T23:07:35 ICT" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Prize Product ditemukan expected [0] but found [1]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-0MGR9KI', ip: '192.168.1.188', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa7124a5d4c1504f0a581db47d4f0b21, findElement {using=xpath, value=//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58270/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa7124a5d4c1504f0a581db47d4f0b21]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Prize Product ditemukan expected [0] but found [1]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at com.nextsoft.testcom.product.BuyProductTest.check_Image_Name_Prize_Product(BuyProductTest.java:52)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-0MGR9KI', ip: '192.168.1.188', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa7124a5d4c1504f0a581db47d4f0b21, findElement {using=xpath, value=//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58270/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa7124a5d4c1504f0a581db47d4f0b21
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.nextsoft.testcom.product.HomePage.gotoCartPage(HomePage.java:73)
+at com.nextsoft.testcom.product.BuyProductTest.check_btnAddToCart(BuyProductTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -72,11 +105,10 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
->>>>>>> 1f4e84df54f226386811a7210296a3431ff3053a
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_Image_Name_Prize_Product -->
+        </test-method> <!-- check_btnAddToCart -->
       </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

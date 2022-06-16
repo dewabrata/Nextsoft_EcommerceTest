@@ -53,5 +53,15 @@ public class BuyProductTest {
 		assertEquals(home.getCheckPrizeProduct(), 1, "Prize Product ditemukan");
 		
 	}
+//	
+//	@Test(priority = 3)
+//	public void check_btnAddToCart() {
+//		HomePage home = PageFactory.initElements(driver, HomePage.class);
+//		home.gotoCartPage();
+//		CartPage cart = PageFactory.initElements(driver, CartPage.class);
+//		
+//		assertEquals(cart.getConfirmationAddToCart(), "Product successfully added to your shopping cart");
+//		
+//	}
 	
 }

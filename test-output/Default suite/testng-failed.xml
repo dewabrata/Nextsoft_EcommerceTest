@@ -7,7 +7,7 @@
         <methods>
           <include name="init"/>
           <include name="cekSession"/>
-          <include name="check_Image_Name_Prize_Product"/>
+          <include name="check_btnAddToCart"/>
         </methods>
       </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
     </classes>

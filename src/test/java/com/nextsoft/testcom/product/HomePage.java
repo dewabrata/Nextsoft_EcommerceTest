@@ -16,51 +16,66 @@ public class HomePage {
 	@FindBy(xpath = "//a[@title='Log in to your customer account']")
 	private WebElement signIn;
 
-	
-	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//img[@title='Faded Short Sleeve T-shirts']")
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//img[@title='Faded Short Sleeve T-shirts']")
 	private WebElement checkImageProduct;
-	
-	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts']")
+
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts']")
 	private WebElement checkNameProduct;
-	
-	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//div[@class='left-block']//div[@class='content_price']")
+
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//div[@class='left-block']//div[@class='content_price']")
 	private WebElement checkPrizeProduct;
-	
-	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Quick view')]")
+
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Quick view')]")
 	private WebElement btnQuickView;
-	
-	@FindBy(xpath =  "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Quick view')]")
+
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'More')]")
 	private WebElement btnMore;
-	
+
+	@FindBy(xpath = "//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line hovered']//span[contains(text(),'Add to cart')]")
+	private WebElement btnAddToCart;
+
 	public SignInPage clickSignIn() {
 		signIn.click();
 		SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
 		return signInPage;
 	}
 
-	
-	
 	public int getCheckImageProduct() {
-		int check=0; 
-		if(checkImageProduct!=null) {
-			check=1;
+		int check = 0;
+		if (checkImageProduct != null) {
+			check = 1;
 		}
 		return check;
 	}
-	
+
 	public int getCheckNameProduct() {
-		int check=0; 
-		if(checkNameProduct!=null) {
-			check=1;
+		int check = 0;
+		if (checkNameProduct != null) {
+			check = 1;
 		}
 		return check;
 	}
-	
+
 	public int getCheckPrizeProduct() {
-		int check=0; 
-		if(checkPrizeProduct!=null) {
-			check=1;
+		int check = 0;
+		if (checkPrizeProduct != null) {
+			check = 1;
 		}
 		return check;
+	}
+
+	public PopUpDetailPage gotoPopUpDetailPage() {
+		btnQuickView.click();
+		return PageFactory.initElements(driver, PopUpDetailPage.class);
+	}
+	
+	public CartPage gotoCartPage() {
+		btnAddToCart.click();
+		return PageFactory.initElements(driver, CartPage.class);
+	}
+	
+	public DetailPage gotoDetailPage() {
+		btnMore.click();
+		return PageFactory.initElements(driver, DetailPage.class);
 	}
 }
