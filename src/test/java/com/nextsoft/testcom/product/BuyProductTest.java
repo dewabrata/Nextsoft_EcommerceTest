@@ -48,13 +48,20 @@ public class BuyProductTest {
 		HomePage home = PageFactory.initElements(driver, HomePage.class);
 		jsExe.executeScript("window.scrollBy(0, 800)", "");
 
-	
-		
-
 		assertEquals(home.getCheckImageProduct(), 1, "Image Product ditemukan");
 		assertEquals(home.getCheckNameProduct(), 1, "Name Product ditemukan");
 		assertEquals(home.getCheckPrizeProduct(), 1, "Prize Product ditemukan");
 		
 	}
+//	
+//	@Test(priority = 3)
+//	public void check_btnAddToCart() {
+//		HomePage home = PageFactory.initElements(driver, HomePage.class);
+//		home.gotoCartPage();
+//		CartPage cart = PageFactory.initElements(driver, CartPage.class);
+//		
+//		assertEquals(cart.getConfirmationAddToCart(), "Product successfully added to your shopping cart");
+//		
+//	}
 	
 }

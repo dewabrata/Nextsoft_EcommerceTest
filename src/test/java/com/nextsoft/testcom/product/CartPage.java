@@ -25,6 +25,8 @@ public class CartPage {
 	@FindBy(xpath = "//span[@id='layer_cart_product_title']")
 	private WebElement productTitle;
 	
+	@FindBy(xpath = "//h2[normalize-space()='Product successfully added to your shopping cart']")
+	private WebElement confirmation;
 	
 	public HomePage backToHome() {
 		continueShopping.click();
@@ -46,6 +48,10 @@ public class CartPage {
 	
 	public void getProductTitle() {
 		productTitle.getText();
+	}
+	
+	public String getConfirmationAddToCart() {
+		return confirmation.getText();
 	}
 }
 	
