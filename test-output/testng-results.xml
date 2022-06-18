@@ -2,58 +2,58 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<img src='file://D:\hasilSS\20220617_064130.png'height="450" width="1017"/>]]>
+      <![CDATA[<img src='file://D:\hasilSS\20220618_181817.png'height="450" width="1017"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\hasilSS\20220617_064132.png'height="450" width="1017"/>]]>
+      <![CDATA[<img src='file://D:\hasilSS\20220618_181820.png'height="450" width="1017"/>]]>
     </line>
     <line>
-      <![CDATA[<img src='file://D:\hasilSS\20220617_064139.png'height="450" width="1017"/>]]>
+      <![CDATA[<img src='file://D:\hasilSS\20220618_181827.png'height="450" width="1017"/>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-17T06:41:07 WIB" name="Default suite" finished-at="2022-06-17T06:41:39 WIB" duration-ms="32746">
+  <suite started-at="2022-06-18T18:17:52 ICT" name="Default suite" finished-at="2022-06-18T18:18:27 ICT" duration-ms="35155">
     <groups>
     </groups>
-    <test started-at="2022-06-17T06:41:07 WIB" name="Default test" finished-at="2022-06-17T06:41:39 WIB" duration-ms="32746">
-      <class name="com.nextsoft.testcom.product.BuyProductTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:07 WIB" name="init" finished-at="2022-06-17T06:41:17 WIB" duration-ms="10675" status="PASS">
+    <test started-at="2022-06-18T18:17:52 ICT" name="Default test" finished-at="2022-06-18T18:18:27 ICT" duration-ms="35155">
+      <class name="com.nextsoft.testcom.product.testCases.BuyProductTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:17:52 ICT" name="init" finished-at="2022-06-18T18:18:04 ICT" duration-ms="11609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:17 WIB" name="cekSession" finished-at="2022-06-17T06:41:20 WIB" duration-ms="2562" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:04 ICT" name="cekSession" finished-at="2022-06-18T18:18:07 ICT" duration-ms="2543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="test_Login_toHomepage()[pri:1, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:20 WIB" name="test_Login_toHomepage" finished-at="2022-06-17T06:41:30 WIB" duration-ms="10267" status="PASS">
+        <test-method signature="test_Login_toHomepage()[pri:1, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:07 ICT" name="test_Login_toHomepage" finished-at="2022-06-18T18:18:17 ICT" duration-ms="10632" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\hasilSS\20220617_064130.png'height="450" width="1017"/>]]>
+              <![CDATA[<img src='file://D:\hasilSS\20220618_181817.png'height="450" width="1017"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Login_toHomepage -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:30 WIB" name="cekSession" finished-at="2022-06-17T06:41:32 WIB" duration-ms="2170" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:17 ICT" name="cekSession" finished-at="2022-06-18T18:18:20 ICT" duration-ms="2462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="test_getProduct_Image_Name_Prize()[pri:2, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:32 WIB" name="test_getProduct_Image_Name_Prize" finished-at="2022-06-17T06:41:33 WIB" duration-ms="674" status="PASS">
+        <test-method signature="test_getProduct_Image_Name_Prize()[pri:2, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:20 ICT" name="test_getProduct_Image_Name_Prize" finished-at="2022-06-18T18:18:20 ICT" duration-ms="747" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\hasilSS\20220617_064132.png'height="450" width="1017"/>]]>
+              <![CDATA[<img src='file://D:\hasilSS\20220618_181820.png'height="450" width="1017"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_getProduct_Image_Name_Prize -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:33 WIB" name="cekSession" finished-at="2022-06-17T06:41:35 WIB" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:20 ICT" name="cekSession" finished-at="2022-06-18T18:18:23 ICT" duration-ms="2636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="testCheck_btnQuickView()[pri:3, instance:com.nextsoft.testcom.product.BuyProductTest@783a467b]" started-at="2022-06-17T06:41:35 WIB" name="testCheck_btnQuickView" finished-at="2022-06-17T06:41:39 WIB" duration-ms="4366" status="PASS">
+        <test-method signature="testCheck_btnQuickView()[pri:3, instance:com.nextsoft.testcom.product.testCases.BuyProductTest@25641d39]" started-at="2022-06-18T18:18:23 ICT" name="testCheck_btnQuickView" finished-at="2022-06-18T18:18:27 ICT" duration-ms="4445" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\hasilSS\20220617_064139.png'height="450" width="1017"/>]]>
+              <![CDATA[<img src='file://D:\hasilSS\20220618_181827.png'height="450" width="1017"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCheck_btnQuickView -->
-      </class> <!-- com.nextsoft.testcom.product.BuyProductTest -->
+      </class> <!-- com.nextsoft.testcom.product.testCases.BuyProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

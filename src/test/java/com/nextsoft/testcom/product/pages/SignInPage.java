@@ -1,4 +1,4 @@
-package com.nextsoft.testcom.product;
+package com.nextsoft.testcom.product.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
